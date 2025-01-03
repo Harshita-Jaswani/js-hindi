@@ -23,3 +23,32 @@ let a =33
 let b= String(a)
 console.log(b)
 console.log(typeof b)
+
+//--------------------OPERATIONS---------------------
+
+console.log(2+3);
+console.log(2-3);
+console.log(2*3);
+console.log(2**3);
+console.log(2/3);
+console.log(2%3);
+
+let c=3
+let negval=-c;
+console.log(negval)
+
+// adding 2 strings.
+let str1="hiii"
+let str2="  harshita"
+
+console.log(str1+str2)
+console.log("1" +"2")
+console.log(1 +"2")
+console.log("1" +2)
+console.log(1 +2+ "3")// if in the starting no. is there ,they will get added.
+console.log("1" +2+3)// but not in this case.
+
+
+console.log(+true);// its answer is 1.
+///console.log(true+); this will give you error, we cant write like this
+// you can read the prefix and postfix from the documenttaion.
