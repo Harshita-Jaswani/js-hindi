@@ -1,0 +1,19 @@
+console.log(2>3)
+console.log(2<3)
+console.log(2>=3)
+console.log(2<=3)
+console.log(2==3)
+console.log(2!=3)
+
+console.log("2">1)// this 2 got converted into number.
+// but we should avoid comparing 2 different data types.
+// we dont always get the predictable results.
+console.log(null>0)
+console.log(null>=0)
+console.log(null==0)
+console.log(undefined==0)
+//comparisons and equality check works differently.
+// u can try and get to know about the results.
+//strict check ===
+// this checks the values as well as the datatypes.
+console.log("2"===2)
