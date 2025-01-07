@@ -29,3 +29,20 @@ let funct1=function(){
     console.log("hello kitty");
 }
 console.log(typeof array1 )
+//--------------------------------------------------//
+
+//there are two types of memory
+// heap (non-primitive) and stack (primitive)
+// stack- changes are made in the copy.
+//heap- refrence s provided,so changes are made in the original space.
+
+
+let user1={
+    name:"harshit",
+    age:23
+}
+let user2=user1;
+user2.age=24;
+console.log(user1.age)//user1 ki age bhi vhange ho jaaegi.
+console.log(user2.age)//bcz dono ka reference is same.
+//in heap datatype user1 and user2 points to the same memory reference
